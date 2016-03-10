@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D27EA82B1C91E7D40049D552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EA82A1C91E7D40049D552 /* AppDelegate.swift */; };
+		D27EA82D1C91E7D40049D552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EA82C1C91E7D40049D552 /* ViewController.swift */; };
+		D27EA8301C91E7D40049D552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27EA82E1C91E7D40049D552 /* Main.storyboard */; };
+		D27EA8321C91E7D40049D552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27EA8311C91E7D40049D552 /* Assets.xcassets */; };
+		D27EA8351C91E7D40049D552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27EA8331C91E7D40049D552 /* LaunchScreen.storyboard */; };
+		D27EA8401C91E7D40049D552 /* CarSoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EA83F1C91E7D40049D552 /* CarSoundsTests.swift */; };
+		D27EA84B1C91E7D40049D552 /* CarSoundsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EA84A1C91E7D40049D552 /* CarSoundsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D27EA83C1C91E7D40049D552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D27EA81F1C91E7D40049D552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27EA8261C91E7D40049D552;
+			remoteInfo = CarSounds;
+		};
+		D27EA8471C91E7D40049D552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D27EA81F1C91E7D40049D552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27EA8261C91E7D40049D552;
+			remoteInfo = CarSounds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D27EA8271C91E7D40049D552 /* CarSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27EA82A1C91E7D40049D552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D27EA82C1C91E7D40049D552 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D27EA82F1C91E7D40049D552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D27EA8311C91E7D40049D552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D27EA8341C91E7D40049D552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D27EA8361C91E7D40049D552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27EA83B1C91E7D40049D552 /* CarSoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSoundsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27EA83F1C91E7D40049D552 /* CarSoundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSoundsTests.swift; sourceTree = "<group>"; };
+		D27EA8411C91E7D40049D552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27EA8461C91E7D40049D552 /* CarSoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSoundsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27EA84A1C91E7D40049D552 /* CarSoundsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSoundsUITests.swift; sourceTree = "<group>"; };
+		D27EA84C1C91E7D40049D552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D27EA8241C91E7D40049D552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27EA8381C91E7D40049D552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27EA8431C91E7D40049D552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D27EA81E1C91E7D40049D552 = {
+			isa = PBXGroup;
+			children = (
+				D27EA8291C91E7D40049D552 /* CarSounds */,
+				D27EA83E1C91E7D40049D552 /* CarSoundsTests */,
+				D27EA8491C91E7D40049D552 /* CarSoundsUITests */,
+				D27EA8281C91E7D40049D552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D27EA8281C91E7D40049D552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27EA8271C91E7D40049D552 /* CarSounds.app */,
+				D27EA83B1C91E7D40049D552 /* CarSoundsTests.xctest */,
+				D27EA8461C91E7D40049D552 /* CarSoundsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D27EA8291C91E7D40049D552 /* CarSounds */ = {
+			isa = PBXGroup;
+			children = (
+				D27EA82A1C91E7D40049D552 /* AppDelegate.swift */,
+				D27EA82C1C91E7D40049D552 /* ViewController.swift */,
+				D27EA82E1C91E7D40049D552 /* Main.storyboard */,
+				D27EA8311C91E7D40049D552 /* Assets.xcassets */,
+				D27EA8331C91E7D40049D552 /* LaunchScreen.storyboard */,
+				D27EA8361C91E7D40049D552 /* Info.plist */,
+			);
+			path = CarSounds;
+			sourceTree = "<group>";
+		};
+		D27EA83E1C91E7D40049D552 /* CarSoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D27EA83F1C91E7D40049D552 /* CarSoundsTests.swift */,
+				D27EA8411C91E7D40049D552 /* Info.plist */,
+			);
+			path = CarSoundsTests;
+			sourceTree = "<group>";
+		};
+		D27EA8491C91E7D40049D552 /* CarSoundsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D27EA84A1C91E7D40049D552 /* CarSoundsUITests.swift */,
+				D27EA84C1C91E7D40049D552 /* Info.plist */,
+			);
+			path = CarSoundsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D27EA8261C91E7D40049D552 /* CarSounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27EA84F1C91E7D40049D552 /* Build configuration list for PBXNativeTarget "CarSounds" */;
+			buildPhases = (
+				D27EA8231C91E7D40049D552 /* Sources */,
+				D27EA8241C91E7D40049D552 /* Frameworks */,
+				D27EA8251C91E7D40049D552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarSounds;
+			productName = CarSounds;
+			productReference = D27EA8271C91E7D40049D552 /* CarSounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D27EA83A1C91E7D40049D552 /* CarSoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27EA8521C91E7D40049D552 /* Build configuration list for PBXNativeTarget "CarSoundsTests" */;
+			buildPhases = (
+				D27EA8371C91E7D40049D552 /* Sources */,
+				D27EA8381C91E7D40049D552 /* Frameworks */,
+				D27EA8391C91E7D40049D552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27EA83D1C91E7D40049D552 /* PBXTargetDependency */,
+			);
+			name = CarSoundsTests;
+			productName = CarSoundsTests;
+			productReference = D27EA83B1C91E7D40049D552 /* CarSoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D27EA8451C91E7D40049D552 /* CarSoundsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27EA8551C91E7D40049D552 /* Build configuration list for PBXNativeTarget "CarSoundsUITests" */;
+			buildPhases = (
+				D27EA8421C91E7D40049D552 /* Sources */,
+				D27EA8431C91E7D40049D552 /* Frameworks */,
+				D27EA8441C91E7D40049D552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27EA8481C91E7D40049D552 /* PBXTargetDependency */,
+			);
+			name = CarSoundsUITests;
+			productName = CarSoundsUITests;
+			productReference = D27EA8461C91E7D40049D552 /* CarSoundsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D27EA81F1C91E7D40049D552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = scott;
+				TargetAttributes = {
+					D27EA8261C91E7D40049D552 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D27EA83A1C91E7D40049D552 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D27EA8261C91E7D40049D552;
+					};
+					D27EA8451C91E7D40049D552 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D27EA8261C91E7D40049D552;
+					};
+				};
+			};
+			buildConfigurationList = D27EA8221C91E7D40049D552 /* Build configuration list for PBXProject "CarSounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D27EA81E1C91E7D40049D552;
+			productRefGroup = D27EA8281C91E7D40049D552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D27EA8261C91E7D40049D552 /* CarSounds */,
+				D27EA83A1C91E7D40049D552 /* CarSoundsTests */,
+				D27EA8451C91E7D40049D552 /* CarSoundsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D27EA8251C91E7D40049D552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27EA8351C91E7D40049D552 /* LaunchScreen.storyboard in Resources */,
+				D27EA8321C91E7D40049D552 /* Assets.xcassets in Resources */,
+				D27EA8301C91E7D40049D552 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27EA8391C91E7D40049D552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27EA8441C91E7D40049D552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27EA8231C91E7D40049D552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27EA82D1C91E7D40049D552 /* ViewController.swift in Sources */,
+				D27EA82B1C91E7D40049D552 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27EA8371C91E7D40049D552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27EA8401C91E7D40049D552 /* CarSoundsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27EA8421C91E7D40049D552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27EA84B1C91E7D40049D552 /* CarSoundsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D27EA83D1C91E7D40049D552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27EA8261C91E7D40049D552 /* CarSounds */;
+			targetProxy = D27EA83C1C91E7D40049D552 /* PBXContainerItemProxy */;
+		};
+		D27EA8481C91E7D40049D552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27EA8261C91E7D40049D552 /* CarSounds */;
+			targetProxy = D27EA8471C91E7D40049D552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D27EA82E1C91E7D40049D552 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27EA82F1C91E7D40049D552 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D27EA8331C91E7D40049D552 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27EA8341C91E7D40049D552 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D27EA84D1C91E7D40049D552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D27EA84E1C91E7D40049D552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D27EA8501C91E7D40049D552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarSounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.CarSounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D27EA8511C91E7D40049D552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarSounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.CarSounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D27EA8531C91E7D40049D552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarSoundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.CarSoundsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarSounds.app/CarSounds";
+			};
+			name = Debug;
+		};
+		D27EA8541C91E7D40049D552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarSoundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.CarSoundsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarSounds.app/CarSounds";
+			};
+			name = Release;
+		};
+		D27EA8561C91E7D40049D552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarSoundsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.CarSoundsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarSounds;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D27EA8571C91E7D40049D552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarSoundsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.CarSoundsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarSounds;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D27EA8221C91E7D40049D552 /* Build configuration list for PBXProject "CarSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27EA84D1C91E7D40049D552 /* Debug */,
+				D27EA84E1C91E7D40049D552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27EA84F1C91E7D40049D552 /* Build configuration list for PBXNativeTarget "CarSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27EA8501C91E7D40049D552 /* Debug */,
+				D27EA8511C91E7D40049D552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D27EA8521C91E7D40049D552 /* Build configuration list for PBXNativeTarget "CarSoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27EA8531C91E7D40049D552 /* Debug */,
+				D27EA8541C91E7D40049D552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D27EA8551C91E7D40049D552 /* Build configuration list for PBXNativeTarget "CarSoundsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27EA8561C91E7D40049D552 /* Debug */,
+				D27EA8571C91E7D40049D552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D27EA81F1C91E7D40049D552 /* Project object */;
+}
