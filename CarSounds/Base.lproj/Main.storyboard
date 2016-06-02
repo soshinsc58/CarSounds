@@ -1,25 +1,118 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3D6-dc-ffe">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Car Table View Controller-->
+        <scene sceneID="YMg-Lh-uTI">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController id="3D6-dc-ffe" customClass="CarTableViewController" customModule="CarSounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Obg-fR-jb0">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cars" id="Tns-DF-YHl">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tns-DF-YHl" id="K60-Hn-gOL">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="jWW-Ae-X7h" kind="showDetail" identifier="mySegue" id="gfz-DA-JF5"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="3D6-dc-ffe" id="dOP-gp-abO"/>
+                            <outlet property="delegate" destination="3D6-dc-ffe" id="lr3-8X-YrX"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lWV-dI-7U5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="532" y="276"/>
+        </scene>
+        <!--Car Sound View Controller-->
+        <scene sceneID="BlW-Yc-yf9">
+            <objects>
+                <viewController id="jWW-Ae-X7h" customClass="CarSoundViewController" customModule="CarSounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yHR-Zo-ZBM"/>
+                        <viewControllerLayoutGuide type="bottom" id="cM8-dQ-XrM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kua-Sw-RUT" customClass="Car">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54J-ew-vPu">
+                                <rect key="frame" x="170" y="266" width="261" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="261" id="UxV-cf-4wp"/>
+                                    <constraint firstAttribute="height" constant="170" id="YSO-Tm-GqX"/>
+                                </constraints>
+                                <state key="normal" image="StartButton"/>
+                                <connections>
+                                    <action selector="playSound:" destination="jWW-Ae-X7h" eventType="touchUpInside" id="vjZ-YK-mnb"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mwn-Yn-4tJ">
+                                <rect key="frame" x="0.0" y="16" width="600" height="44"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem id="wwt-2X-fcl">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="XZM-UE-19z">
+                                            <connections>
+                                                <action selector="cancel:" destination="jWW-Ae-X7h" id="aXV-y4-iQX"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p3g-wE-Dfx">
+                                <rect key="frame" x="180" y="67" width="240" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="KX5-rC-UMk"/>
+                                    <constraint firstAttribute="height" constant="150" id="m77-HZ-0JT"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgs-93-UCl">
+                                <rect key="frame" x="224" y="27" width="152" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="jxZ-Dc-VUx"/>
+                                    <constraint firstAttribute="width" constant="152" id="qIE-i6-jWI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="0.020532956710000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="p3g-wE-Dfx" firstAttribute="centerX" secondItem="kua-Sw-RUT" secondAttribute="centerX" id="9e4-3P-5CN"/>
+                            <constraint firstItem="jgs-93-UCl" firstAttribute="centerX" secondItem="kua-Sw-RUT" secondAttribute="centerX" id="BVa-kQ-Yt8"/>
+                            <constraint firstItem="p3g-wE-Dfx" firstAttribute="top" secondItem="jgs-93-UCl" secondAttribute="bottom" constant="19" id="VQ0-fP-fsU"/>
+                            <constraint firstItem="54J-ew-vPu" firstAttribute="top" secondItem="p3g-wE-Dfx" secondAttribute="bottom" constant="49" id="crH-s8-O6F"/>
+                            <constraint firstItem="54J-ew-vPu" firstAttribute="centerX" secondItem="kua-Sw-RUT" secondAttribute="centerX" id="daU-Yu-lkM"/>
+                            <constraint firstItem="p3g-wE-Dfx" firstAttribute="top" secondItem="yHR-Zo-ZBM" secondAttribute="bottom" constant="47" id="xzL-B0-Mua"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="carName" destination="jgs-93-UCl" id="6Jd-Ud-2pP"/>
+                        <outlet property="carPicture" destination="p3g-wE-Dfx" id="NGi-UQ-euy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3fr-Dc-23Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1182" y="276"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="StartButton" width="170" height="170"/>
+    </resources>
 </document>

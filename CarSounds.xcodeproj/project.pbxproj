@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D21085D91CF33745000274DA /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21085D81CF33745000274DA /* Car.swift */; };
+		D21085DB1CF33AF2000274DA /* Aston Martin DB9 sound effects library.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D21085DA1CF33AF2000274DA /* Aston Martin DB9 sound effects library.mp3 */; };
+		D25276F71CF6019B003A33CE /* Backgrounds_125.png in Resources */ = {isa = PBXBuildFile; fileRef = D25276F61CF6019B003A33CE /* Backgrounds_125.png */; };
+		D25276F91CF605C1003A33CE /* start button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D25276F81CF605C1003A33CE /* start button.jpg */; };
+		D25AB4EA1CEA2ABB007C52A8 /* AE86.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D25AB4E91CEA2ABB007C52A8 /* AE86.jpg */; };
+		D25AB4EC1CEA2B46007C52A8 /* aston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D25AB4EB1CEA2B46007C52A8 /* aston.jpg */; };
+		D25E520E1CE4CEFE003F3093 /* CarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E520D1CE4CEFE003F3093 /* CarTableViewController.swift */; };
+		D25E52101CE4CF20003F3093 /* CarSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E520F1CE4CF20003F3093 /* CarSoundViewController.swift */; };
 		D27EA82B1C91E7D40049D552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EA82A1C91E7D40049D552 /* AppDelegate.swift */; };
-		D27EA82D1C91E7D40049D552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EA82C1C91E7D40049D552 /* ViewController.swift */; };
 		D27EA8301C91E7D40049D552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27EA82E1C91E7D40049D552 /* Main.storyboard */; };
 		D27EA8321C91E7D40049D552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27EA8311C91E7D40049D552 /* Assets.xcassets */; };
 		D27EA8351C91E7D40049D552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27EA8331C91E7D40049D552 /* LaunchScreen.storyboard */; };
 		D27EA8401C91E7D40049D552 /* CarSoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EA83F1C91E7D40049D552 /* CarSoundsTests.swift */; };
 		D27EA84B1C91E7D40049D552 /* CarSoundsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EA84A1C91E7D40049D552 /* CarSoundsUITests.swift */; };
+		D2B027831CEB8C6800F4D13D /* FordExplorer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2B027821CEB8C6800F4D13D /* FordExplorer.jpg */; };
+		D2B027851CEB8E1200F4D13D /* Ford Explorer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B027841CEB8E1200F4D13D /* Ford Explorer.mp3 */; };
+		D2B027871CEB8F6E00F4D13D /* CarSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B027861CEB8F6E00F4D13D /* CarSounds.swift */; };
+		D2EA99081CF4A1FC00EE25EC /* AE86EngineSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2EA99071CF4A1FC00EE25EC /* AE86EngineSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D21085D81CF33745000274DA /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		D21085DA1CF33AF2000274DA /* Aston Martin DB9 sound effects library.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Aston Martin DB9 sound effects library.mp3"; sourceTree = "<group>"; };
+		D25276F61CF6019B003A33CE /* Backgrounds_125.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Backgrounds_125.png; sourceTree = "<group>"; };
+		D25276F81CF605C1003A33CE /* start button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "start button.jpg"; sourceTree = "<group>"; };
+		D25AB4E91CEA2ABB007C52A8 /* AE86.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AE86.jpg; sourceTree = "<group>"; };
+		D25AB4EB1CEA2B46007C52A8 /* aston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aston.jpg; sourceTree = "<group>"; };
+		D25E520D1CE4CEFE003F3093 /* CarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTableViewController.swift; sourceTree = "<group>"; };
+		D25E520F1CE4CF20003F3093 /* CarSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarSoundViewController.swift; sourceTree = "<group>"; };
 		D27EA8271C91E7D40049D552 /* CarSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27EA82A1C91E7D40049D552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D27EA82C1C91E7D40049D552 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D27EA82F1C91E7D40049D552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D27EA8311C91E7D40049D552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D27EA8341C91E7D40049D552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,10 @@
 		D27EA8461C91E7D40049D552 /* CarSoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSoundsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27EA84A1C91E7D40049D552 /* CarSoundsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSoundsUITests.swift; sourceTree = "<group>"; };
 		D27EA84C1C91E7D40049D552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B027821CEB8C6800F4D13D /* FordExplorer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FordExplorer.jpg; sourceTree = "<group>"; };
+		D2B027841CEB8E1200F4D13D /* Ford Explorer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ford Explorer.mp3"; sourceTree = "<group>"; };
+		D2B027861CEB8F6E00F4D13D /* CarSounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarSounds.swift; sourceTree = "<group>"; };
+		D2EA99071CF4A1FC00EE25EC /* AE86EngineSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AE86EngineSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,14 @@
 				D27EA83E1C91E7D40049D552 /* CarSoundsTests */,
 				D27EA8491C91E7D40049D552 /* CarSoundsUITests */,
 				D27EA8281C91E7D40049D552 /* Products */,
+				D25AB4E91CEA2ABB007C52A8 /* AE86.jpg */,
+				D25AB4EB1CEA2B46007C52A8 /* aston.jpg */,
+				D2B027821CEB8C6800F4D13D /* FordExplorer.jpg */,
+				D25276F61CF6019B003A33CE /* Backgrounds_125.png */,
+				D25276F81CF605C1003A33CE /* start button.jpg */,
+				D2B027841CEB8E1200F4D13D /* Ford Explorer.mp3 */,
+				D21085DA1CF33AF2000274DA /* Aston Martin DB9 sound effects library.mp3 */,
+				D2EA99071CF4A1FC00EE25EC /* AE86EngineSound.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +127,15 @@
 		D27EA8291C91E7D40049D552 /* CarSounds */ = {
 			isa = PBXGroup;
 			children = (
+				D25E520D1CE4CEFE003F3093 /* CarTableViewController.swift */,
+				D2B027861CEB8F6E00F4D13D /* CarSounds.swift */,
+				D25E520F1CE4CF20003F3093 /* CarSoundViewController.swift */,
+				D21085D81CF33745000274DA /* Car.swift */,
 				D27EA82A1C91E7D40049D552 /* AppDelegate.swift */,
-				D27EA82C1C91E7D40049D552 /* ViewController.swift */,
 				D27EA82E1C91E7D40049D552 /* Main.storyboard */,
+				D27EA8361C91E7D40049D552 /* Info.plist */,
 				D27EA8311C91E7D40049D552 /* Assets.xcassets */,
 				D27EA8331C91E7D40049D552 /* LaunchScreen.storyboard */,
-				D27EA8361C91E7D40049D552 /* Info.plist */,
 			);
 			path = CarSounds;
 			sourceTree = "<group>";
@@ -193,6 +226,7 @@
 				TargetAttributes = {
 					D27EA8261C91E7D40049D552 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DHF57RHF87;
 					};
 					D27EA83A1C91E7D40049D552 = {
 						CreatedOnToolsVersion = 7.2;
@@ -229,9 +263,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25276F91CF605C1003A33CE /* start button.jpg in Resources */,
 				D27EA8351C91E7D40049D552 /* LaunchScreen.storyboard in Resources */,
+				D2B027831CEB8C6800F4D13D /* FordExplorer.jpg in Resources */,
+				D25AB4EC1CEA2B46007C52A8 /* aston.jpg in Resources */,
 				D27EA8321C91E7D40049D552 /* Assets.xcassets in Resources */,
+				D25276F71CF6019B003A33CE /* Backgrounds_125.png in Resources */,
+				D2B027851CEB8E1200F4D13D /* Ford Explorer.mp3 in Resources */,
+				D21085DB1CF33AF2000274DA /* Aston Martin DB9 sound effects library.mp3 in Resources */,
+				D2EA99081CF4A1FC00EE25EC /* AE86EngineSound.mp3 in Resources */,
 				D27EA8301C91E7D40049D552 /* Main.storyboard in Resources */,
+				D25AB4EA1CEA2ABB007C52A8 /* AE86.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D27EA82D1C91E7D40049D552 /* ViewController.swift in Sources */,
+				D2B027871CEB8F6E00F4D13D /* CarSounds.swift in Sources */,
+				D25E52101CE4CF20003F3093 /* CarSoundViewController.swift in Sources */,
+				D21085D91CF33745000274DA /* Car.swift in Sources */,
+				D25E520E1CE4CEFE003F3093 /* CarTableViewController.swift in Sources */,
 				D27EA82B1C91E7D40049D552 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +444,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CarSounds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.CarSounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +457,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CarSounds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.CarSounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +533,7 @@
 				D27EA8511C91E7D40049D552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D27EA8521C91E7D40049D552 /* Build configuration list for PBXNativeTarget "CarSoundsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +542,7 @@
 				D27EA8541C91E7D40049D552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D27EA8551C91E7D40049D552 /* Build configuration list for PBXNativeTarget "CarSoundsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +551,7 @@
 				D27EA8571C91E7D40049D552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
